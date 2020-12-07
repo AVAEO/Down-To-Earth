@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40161668257E4FBC006FDA2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40161667257E4FBC006FDA2E /* AppDelegate.swift */; };
+		4016166A257E4FBC006FDA2E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40161669257E4FBC006FDA2E /* SceneDelegate.swift */; };
+		4016166C257E4FBC006FDA2E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4016166B257E4FBC006FDA2E /* ViewController.swift */; };
+		4016166F257E4FBC006FDA2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4016166D257E4FBC006FDA2E /* Main.storyboard */; };
+		40161671257E4FBE006FDA2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40161670257E4FBE006FDA2E /* Assets.xcassets */; };
+		40161674257E4FBE006FDA2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40161672257E4FBE006FDA2E /* LaunchScreen.storyboard */; };
+		4016167F257E4FBE006FDA2E /* Down_To_EarthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4016167E257E4FBE006FDA2E /* Down_To_EarthTests.swift */; };
+		4016168A257E4FBE006FDA2E /* Down_To_EarthUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40161689257E4FBE006FDA2E /* Down_To_EarthUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4016167B257E4FBE006FDA2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4016165C257E4FBC006FDA2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40161663257E4FBC006FDA2E;
+			remoteInfo = "Down To Earth";
+		};
+		40161686257E4FBE006FDA2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4016165C257E4FBC006FDA2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40161663257E4FBC006FDA2E;
+			remoteInfo = "Down To Earth";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		40161664257E4FBC006FDA2E /* Down To Earth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Down To Earth.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40161667257E4FBC006FDA2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		40161669257E4FBC006FDA2E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4016166B257E4FBC006FDA2E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4016166E257E4FBC006FDA2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		40161670257E4FBE006FDA2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40161673257E4FBE006FDA2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		40161675257E4FBE006FDA2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4016167A257E4FBE006FDA2E /* Down To EarthTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Down To EarthTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4016167E257E4FBE006FDA2E /* Down_To_EarthTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Down_To_EarthTests.swift; sourceTree = "<group>"; };
+		40161680257E4FBE006FDA2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40161685257E4FBE006FDA2E /* Down To EarthUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Down To EarthUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40161689257E4FBE006FDA2E /* Down_To_EarthUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Down_To_EarthUITests.swift; sourceTree = "<group>"; };
+		4016168B257E4FBE006FDA2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40161661257E4FBC006FDA2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40161677257E4FBE006FDA2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40161682257E4FBE006FDA2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4016165B257E4FBC006FDA2E = {
+			isa = PBXGroup;
+			children = (
+				40161666257E4FBC006FDA2E /* Down To Earth */,
+				4016167D257E4FBE006FDA2E /* Down To EarthTests */,
+				40161688257E4FBE006FDA2E /* Down To EarthUITests */,
+				40161665257E4FBC006FDA2E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		40161665257E4FBC006FDA2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40161664257E4FBC006FDA2E /* Down To Earth.app */,
+				4016167A257E4FBE006FDA2E /* Down To EarthTests.xctest */,
+				40161685257E4FBE006FDA2E /* Down To EarthUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40161666257E4FBC006FDA2E /* Down To Earth */ = {
+			isa = PBXGroup;
+			children = (
+				40161667257E4FBC006FDA2E /* AppDelegate.swift */,
+				40161669257E4FBC006FDA2E /* SceneDelegate.swift */,
+				4016166B257E4FBC006FDA2E /* ViewController.swift */,
+				4016166D257E4FBC006FDA2E /* Main.storyboard */,
+				40161670257E4FBE006FDA2E /* Assets.xcassets */,
+				40161672257E4FBE006FDA2E /* LaunchScreen.storyboard */,
+				40161675257E4FBE006FDA2E /* Info.plist */,
+			);
+			path = "Down To Earth";
+			sourceTree = "<group>";
+		};
+		4016167D257E4FBE006FDA2E /* Down To EarthTests */ = {
+			isa = PBXGroup;
+			children = (
+				4016167E257E4FBE006FDA2E /* Down_To_EarthTests.swift */,
+				40161680257E4FBE006FDA2E /* Info.plist */,
+			);
+			path = "Down To EarthTests";
+			sourceTree = "<group>";
+		};
+		40161688257E4FBE006FDA2E /* Down To EarthUITests */ = {
+			isa = PBXGroup;
+			children = (
+				40161689257E4FBE006FDA2E /* Down_To_EarthUITests.swift */,
+				4016168B257E4FBE006FDA2E /* Info.plist */,
+			);
+			path = "Down To EarthUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40161663257E4FBC006FDA2E /* Down To Earth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4016168E257E4FBE006FDA2E /* Build configuration list for PBXNativeTarget "Down To Earth" */;
+			buildPhases = (
+				40161660257E4FBC006FDA2E /* Sources */,
+				40161661257E4FBC006FDA2E /* Frameworks */,
+				40161662257E4FBC006FDA2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Down To Earth";
+			productName = "Down To Earth";
+			productReference = 40161664257E4FBC006FDA2E /* Down To Earth.app */;
+			productType = "com.apple.product-type.application";
+		};
+		40161679257E4FBE006FDA2E /* Down To EarthTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40161691257E4FBE006FDA2E /* Build configuration list for PBXNativeTarget "Down To EarthTests" */;
+			buildPhases = (
+				40161676257E4FBE006FDA2E /* Sources */,
+				40161677257E4FBE006FDA2E /* Frameworks */,
+				40161678257E4FBE006FDA2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4016167C257E4FBE006FDA2E /* PBXTargetDependency */,
+			);
+			name = "Down To EarthTests";
+			productName = "Down To EarthTests";
+			productReference = 4016167A257E4FBE006FDA2E /* Down To EarthTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		40161684257E4FBE006FDA2E /* Down To EarthUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40161694257E4FBE006FDA2E /* Build configuration list for PBXNativeTarget "Down To EarthUITests" */;
+			buildPhases = (
+				40161681257E4FBE006FDA2E /* Sources */,
+				40161682257E4FBE006FDA2E /* Frameworks */,
+				40161683257E4FBE006FDA2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40161687257E4FBE006FDA2E /* PBXTargetDependency */,
+			);
+			name = "Down To EarthUITests";
+			productName = "Down To EarthUITests";
+			productReference = 40161685257E4FBE006FDA2E /* Down To EarthUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4016165C257E4FBC006FDA2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					40161663257E4FBC006FDA2E = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					40161679257E4FBE006FDA2E = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 40161663257E4FBC006FDA2E;
+					};
+					40161684257E4FBE006FDA2E = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 40161663257E4FBC006FDA2E;
+					};
+				};
+			};
+			buildConfigurationList = 4016165F257E4FBC006FDA2E /* Build configuration list for PBXProject "Down To Earth" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4016165B257E4FBC006FDA2E;
+			productRefGroup = 40161665257E4FBC006FDA2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40161663257E4FBC006FDA2E /* Down To Earth */,
+				40161679257E4FBE006FDA2E /* Down To EarthTests */,
+				40161684257E4FBE006FDA2E /* Down To EarthUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40161662257E4FBC006FDA2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40161674257E4FBE006FDA2E /* LaunchScreen.storyboard in Resources */,
+				40161671257E4FBE006FDA2E /* Assets.xcassets in Resources */,
+				4016166F257E4FBC006FDA2E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40161678257E4FBE006FDA2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40161683257E4FBE006FDA2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40161660257E4FBC006FDA2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4016166C257E4FBC006FDA2E /* ViewController.swift in Sources */,
+				40161668257E4FBC006FDA2E /* AppDelegate.swift in Sources */,
+				4016166A257E4FBC006FDA2E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40161676257E4FBE006FDA2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4016167F257E4FBE006FDA2E /* Down_To_EarthTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40161681257E4FBE006FDA2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4016168A257E4FBE006FDA2E /* Down_To_EarthUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4016167C257E4FBE006FDA2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40161663257E4FBC006FDA2E /* Down To Earth */;
+			targetProxy = 4016167B257E4FBE006FDA2E /* PBXContainerItemProxy */;
+		};
+		40161687257E4FBE006FDA2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40161663257E4FBC006FDA2E /* Down To Earth */;
+			targetProxy = 40161686257E4FBE006FDA2E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4016166D257E4FBC006FDA2E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4016166E257E4FBC006FDA2E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		40161672257E4FBE006FDA2E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40161673257E4FBE006FDA2E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4016168C257E4FBE006FDA2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4016168D257E4FBE006FDA2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4016168F257E4FBE006FDA2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8V545823Z9;
+				INFOPLIST_FILE = "Down To Earth/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AVAEO.Down-To-Earth";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		40161690257E4FBE006FDA2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8V545823Z9;
+				INFOPLIST_FILE = "Down To Earth/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AVAEO.Down-To-Earth";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		40161692257E4FBE006FDA2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8V545823Z9;
+				INFOPLIST_FILE = "Down To EarthTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AVAEO.Down-To-EarthTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Down To Earth.app/Down To Earth";
+			};
+			name = Debug;
+		};
+		40161693257E4FBE006FDA2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8V545823Z9;
+				INFOPLIST_FILE = "Down To EarthTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AVAEO.Down-To-EarthTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Down To Earth.app/Down To Earth";
+			};
+			name = Release;
+		};
+		40161695257E4FBE006FDA2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8V545823Z9;
+				INFOPLIST_FILE = "Down To EarthUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AVAEO.Down-To-EarthUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Down To Earth";
+			};
+			name = Debug;
+		};
+		40161696257E4FBE006FDA2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8V545823Z9;
+				INFOPLIST_FILE = "Down To EarthUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AVAEO.Down-To-EarthUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Down To Earth";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4016165F257E4FBC006FDA2E /* Build configuration list for PBXProject "Down To Earth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4016168C257E4FBE006FDA2E /* Debug */,
+				4016168D257E4FBE006FDA2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4016168E257E4FBE006FDA2E /* Build configuration list for PBXNativeTarget "Down To Earth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4016168F257E4FBE006FDA2E /* Debug */,
+				40161690257E4FBE006FDA2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40161691257E4FBE006FDA2E /* Build configuration list for PBXNativeTarget "Down To EarthTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40161692257E4FBE006FDA2E /* Debug */,
+				40161693257E4FBE006FDA2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40161694257E4FBE006FDA2E /* Build configuration list for PBXNativeTarget "Down To EarthUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40161695257E4FBE006FDA2E /* Debug */,
+				40161696257E4FBE006FDA2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4016165C257E4FBC006FDA2E /* Project object */;
+}
